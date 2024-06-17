@@ -69,3 +69,29 @@ function costProductPlusPercent(cost,percent) {
 console.log(costProductPlusPercent(12,10));
 console.groupEnd();
 
+console.group('6 task')
+/**
+ * 
+ * @param {number} number1 
+ * @param {number} number2 
+ * @returns {boolean}
+ */
+function isNumbersDifferensEven(number1,number2) {
+    return (number1-number2)%2===0;
+}
+console.log(isNumbersDifferensEven(4,2));
+console.groupEnd();
+
+console.group('7 task')
+const inch=2.54;
+/**
+ * 
+ * @param {number} number 
+ * @returns {number}
+ */
+function inchToСentimeter(number) {
+    let result = number*inch;
+    return result
+}
+console.log(inchToСentimeter(2));
+console.groupEnd();
